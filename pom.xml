@@ -18,16 +18,16 @@
     <groupId>org.apache.poi</groupId>
     <artifactId>poi</artifactId>
     <version>5.2.5</version>
-</dependency>
+  </dependency>
   </dependencies>
   <build>
     <finalName>git-one</finalName>
     <plugins>
-    <plugin>
+     <plugin>
       <groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-war-plugin</artifactId>
       <version>3.3.2</version>
-  </plugin>
+   </plugin>
   </plugins>
   </build>
 </project>
